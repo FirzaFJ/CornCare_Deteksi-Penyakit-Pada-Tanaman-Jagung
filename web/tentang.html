@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static',filename='images/icon.png') }}">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ url_for('static',filename='src/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='src/tentang.css') }}">
+  <title>Deteksi Penyakit Jagung - Tentang</title>
+</head>
+<body>
+
+  <header>
+    <div id="judul">
+      <img src="{{ url_for('static',filename='images/icon.png') }}" alt="icon">
+    </div>
+    <div id="navigasi">
+      <a href="{{ url_for('index') }}" id="deteksi">Deteksi</a>
+      <a href="{{ url_for('dokumentasi') }}" id="dokumentasi">Dokumentasi</a>
+      <a href="#" id="tutorial">Tentang</a>
+    </div>
+  </header>
+
+
+  <main>
+    <p id="tittlemain">Tentang Aplikasi Ini</p>
+    <div id="submain" style="text-align: justify;">Proyek ini dibuat sebagai bagian dari tugas akhir mata kuliah Kecerdasan Buatan Lanjut. Proyek ini bertujuan untuk mengimplementasikan teknologi kecerdasan buatan dalam mendeteksi penyakit pada tanaman jagung secara otomatis, sekaligus memberikan solusi dan informasi terkait pengelolaan tanaman.</div>
+    <div id="containermain">
+
+      <div class="item">
+        <h3 style="margin-bottom: 30px;">Firza Findia Jiven</h3>
+        <img src="{{ url_for('static',filename='images/ffj.jpg') }}" alt="" style="display: inline-block; border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+        <div class="containerlink">
+          <a href="https://github.com/FirzaFJ" target="_blank">GitHub <i class="fa fa-github"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    Copyright &copy; 2025. CornCare. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
