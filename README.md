@@ -50,6 +50,12 @@ CornCare adalah sebuah website berbasis kecerdasan buatan yang dirancang untuk m
 
 ---
 
+## Akses Program 🌐
+Selain menggunakan aplikasi lokal, Anda juga dapat mengakses aplikasi Streamlit dari CornCare di URL berikut:  
+👉 [CornCare di Streamlit](https://corncare.streamlit.app/)
+
+---
+
 ## Kontak 📧
 Jika Anda memiliki pertanyaan atau saran, silakan hubungi kami melalui:
 
